@@ -537,3 +537,13 @@ footer {
     font-size: 0.85rem;
     color: var(--text-muted);
 }
+
+/* Scroll Offset for Anchor Links to account for Sticky Header */
+#home,
+#about,
+#projects,
+#experience,
+#contact {
+    scroll-margin-top: 100px;
+    /* Accounts for the sticky header height + padding */
+}
