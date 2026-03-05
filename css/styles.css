@@ -118,6 +118,25 @@ body {
     width: 100%;
 }
 
+.nav-links .nav-resume-btn {
+    border: 1px solid var(--primary-color);
+    color: var(--text-primary);
+    padding: 4px 16px;
+    border-radius: 20px;
+    transition: all 0.3s;
+    background: rgba(77, 166, 255, 0.15);
+}
+
+.nav-links .nav-resume-btn::after {
+    display: none;
+}
+
+.nav-links .nav-resume-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 10px rgba(77, 166, 255, 0.4);
+}
+
 /* Dashboard Grid Layout */
 .dashboard-container {
     display: grid;
